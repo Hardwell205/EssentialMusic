@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "EssentialMusic",
+    "slug": "todoapp",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/logomin.jpg",
+    "splash": {
+      "image": "./src/assets/logo-black.png",
+      "resizeMode": "contain",
+      "backgroundColor": "white"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    
+    "assetBundlePatterns": [
+      "./src/assets/"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+    
+  }
+}
